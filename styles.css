@@ -1,0 +1,144 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.section-divider {
+    border-top: 2px solid #ccc;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgb(204, 255, 0); /* Add box shadow */
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    border: #333;
+    box-shadow: 0 2px 4px rgb(204, 255, 0); /* Add box shadow */
+
+}
+
+header h1 {
+    margin: 0;
+    box-shadow: 0 2px 4px rgb(204, 255, 0); /* Add box shadow */
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    box-shadow: 0 2px 4px rgb(204, 255, 0); /* Add box shadow */
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section Styles */
+#hero {
+    background-color: #000000;
+    color: wheat;
+    padding: 100px 0;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 2px 4px rgb(204, 255, 0); /* Add box shadow */
+
+}
+
+.skills-summary {
+    font-size: 18px;
+    box-shadow: 0 2px 4px rgb(204, 255, 0); /* Add box shadow */
+
+}
+
+/* About Me Section Styles */
+#about {
+    background-color: #000000;
+    color: wheat;
+    padding: 10px 0;
+}
+
+/* Projects Section Styles */
+#projects {
+    background-color: #000000;
+    color: wheat;
+    padding: 10px 0;
+}
+
+.project {
+    margin-bottom: 10px;
+}
+
+.project img {
+    width: 50%;
+    height: 50vh;
+    box-shadow: 0 2px 4px rgb(204, 255, 0); /* Add box shadow */
+    
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #000000;
+    color: wheat;
+    padding: 10px 0;
+}
+
+#contact-form {
+    margin-bottom: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    background-color: #02ffc862;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+.social-links img {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 2px 4px rgb(204, 255, 0); /* Add box shadow */
+
+}
